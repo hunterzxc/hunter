@@ -16,4 +16,4 @@ foreach ($content as $data) {
     <li>Username: <strong>$username</strong></li>
     <li>Password: <strong>$password</strong></li>
     </ul>";
-}
+} 
