@@ -6,9 +6,9 @@ $content = $domOBJ->getElementsByTagName("item");
 
 foreach ($content as $data) {
 
-    $username = $data->getElementsByTagName("id")->item(0)->nodeValue;
-    $email = $data->getElementsByTagName("username")->item(0)->nodeValue;
-    $address = $data->getElementsByTagName("password")->item(0)->nodeValue;
+    $id= $data->getElementsByTagName("id")->item(0)->nodeValue;
+    $username = $data->getElementsByTagName("username")->item(0)->nodeValue;
+    $password = $data->getElementsByTagName("password")->item(0)->nodeValue;
 
     echo "
     <ul>
